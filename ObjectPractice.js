@@ -1,8 +1,8 @@
-const DHInfo = {
-  name: "DongHa",
-  age: 25,
-  gender: "Male",
-  isHandsome: true
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  }
 };
 
-console.log(DHInfo.gender);
+const plus = calculator.plus(5, 5);
+console.log(plus);

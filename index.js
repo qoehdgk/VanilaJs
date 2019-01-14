@@ -1,1 +1,3 @@
-console.log("I am Working now");
+const title = document.getElementById("title");
+
+console.log(title);
